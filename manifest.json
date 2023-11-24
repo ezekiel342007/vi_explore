@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Vi Explore",
+  "version": "1.0",
+
+  "description": "Awesome shortcuts to explore the internet with your keyboard.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.openai.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
